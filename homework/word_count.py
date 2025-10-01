@@ -90,7 +90,7 @@ def run_job(input_directory, output_directory):
     dataframe = clean_text(dataframe)
     dataframe = count_words(dataframe)
     save_output(dataframe, output_directory)
-    create_marker(output_directory)    
+    create_marker(output_directory)
 
 if __name__ == "__main__":
 
